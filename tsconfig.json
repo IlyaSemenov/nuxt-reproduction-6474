@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@/*": [
+				"src/*"
+			]
+		},
+		"target": "esnext",
+		"types": [
+			"@nuxt/types"
+		],
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+		"allowJs": true,
+		"esModuleInterop": true,
+		"noEmit": true
+	}
+}
